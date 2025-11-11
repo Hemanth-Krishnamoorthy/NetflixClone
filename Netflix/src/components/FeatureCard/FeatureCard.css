@@ -1,0 +1,41 @@
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px ;
+  background:none;
+  color: white;
+  border-bottom: 2px solid #222;
+}
+
+/* Reverse layout: Image on the left, text on the right */
+.feature-card.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Text section */
+.feature-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.feature-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.feature-sub {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+
+.feature-image img {
+  width: 85%;
+  max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}

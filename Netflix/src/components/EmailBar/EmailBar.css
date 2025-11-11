@@ -1,0 +1,65 @@
+
+.email-section {
+  background:none;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #222;
+}
+
+.email-heading {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* Container: aligns input and button in one line */
+.email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* stack on smaller screens */
+  gap: 10px;
+}
+
+/* Input box */
+.email-input {
+  width: 350px;
+  max-width: 100%;
+  padding: 16px 14px;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  outline: none;
+}
+
+.email-input::placeholder {
+  color: #bbb;
+}
+
+/* Red button */
+.email-button {
+  background-color: #e50914;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 28px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.email-button:hover {
+  background-color: #f40612;
+}
+
+/* Arrow inside button */
+.arrow {
+  font-size: 20px;
+}
+

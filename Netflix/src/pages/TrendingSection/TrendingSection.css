@@ -1,0 +1,30 @@
+.trending-section {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 40px;
+}
+
+.trending-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+/* Horizontal scrolling row */
+.movie-row {
+  display: flex;
+  overflow-x: auto;
+  gap: 14px;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+/* Hide scrollbar for clean UI */
+.movie-row::-webkit-scrollbar {
+  display: none;
+}
+
+.Line{
+    margin-top: 10%;
+    margin-bottom: -10%;
+}

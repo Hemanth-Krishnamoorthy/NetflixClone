@@ -1,0 +1,71 @@
+
+.footer-section {
+  background:none;
+  color: #b3b3b3;
+  padding: 50px 10;
+  border-top: 1px solid #222;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+/* Center everything inside the container */
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Top question text */
+.footer-question {
+  margin-bottom: 25px;
+  color: #b3b3b3;
+}
+
+/* Links arranged neatly in a 4-column grid */
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.footer-links a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* Bottom language and copyright area */
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* for mobile */
+  gap: 10px;
+  border-top: 1px solid #222;
+  padding-top: 20px;
+}
+
+/* Language dropdown */
+.footer-language {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+/* Copyright text */
+.footer-copy {
+  font-size: 14px;
+  color: #777;
+}
+
+

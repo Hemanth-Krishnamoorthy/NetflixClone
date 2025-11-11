@@ -1,0 +1,44 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Leo",
+      "img": "https://i.pinimg.com/736x/f9/99/82/f9998221ea08de95c962252700da2f5a.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Jawan",
+      "img": "https://image.tmdb.org/t/p/w500/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Salaar",
+      "img": "https://i.pinimg.com/736x/ce/7d/a2/ce7da260a7aa1d1fc92e75ab0750cfdf.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Vikram",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRipbGJfS25vs4TNyET6Yza93CjpM-2syvNw&s"
+    },
+    {
+      "id": 5,
+      "title": "RRR",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRusBSd260zjoAF6oswQdfyWg-zviFvtrMYqA&s"
+    },
+    {
+      "id": 6,
+      "title": "Kantara",
+      "img": "https://cdn.district.in/movies-assets/images/cinema/Kantara-4977ace0-9ac5-11f0-af89-f5b2732bca3d.jpg"
+    },
+    {
+      "id": 7,
+      "title": "KGF 2",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/K.G.F_Chapter_2.jpg/250px-K.G.F_Chapter_2.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Pushpa",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi6JXOkvLD0ttLTKTpq5_uWM_L_lWrH-O8_Q&s"
+    }
+  ]
+}
