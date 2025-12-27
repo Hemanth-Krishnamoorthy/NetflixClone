@@ -3,6 +3,7 @@ import axios from "axios";
 import MovieCard from "../../components/MovieCard/MovieCard";
 import "./TrendingSection.css";
 
+
 export default function TrendingSection() {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -10,7 +11,7 @@ export default function TrendingSection() {
     
     const fetchMovies = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/movies");
+        const response = await axios.get("http://localhost:5000/movies");
         setMovies(response.data);
         setLoading(false);
       } catch (error) {

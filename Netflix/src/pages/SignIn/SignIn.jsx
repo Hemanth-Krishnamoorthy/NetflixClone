@@ -6,21 +6,15 @@ export default function SignIn() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [userError, setuserError] = useState("");
 
   const handleSignIn = (e) => {
     e.preventDefault();
 
     if (!email.trim() || !password.trim()) {
-      alert("Please fill in both email and password.");
+      setuserError("Please fill in both email and password.");
       return;
     }
-
-    const validEmail = / \S+@\S+\.\S+/.test(email);
-    if (!validEmail) {
-      alert("Please enter a valid email address.");
-      return;
-    }
-
     
     alert(`Signed in as: ${email}`);
 
@@ -47,7 +41,9 @@ export default function SignIn() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               autoComplete="email"
+              required
             />
+            <div>{userError}</div>
 
             <input
               type="password"

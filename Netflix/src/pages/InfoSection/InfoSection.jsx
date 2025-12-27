@@ -10,7 +10,7 @@ export default function InfoSection() {
 
     const fetchFeatures = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/features");
+        const response = await axios.get("http://localhost:5000/features");
         setFeatures(response.data);
       } catch (error) {
         console.error("Error fetching features:", error);
@@ -24,7 +24,11 @@ export default function InfoSection() {
     <div className="info-section">
       <h1 className="Text">MORE REASON TO JOIN</h1>
       {features.map((f) => (
-        <FeatureCard key={f.id} {...f} />
+        <FeatureCard key={f.id}
+          title={f.title}
+          subtitle={f.subtitle}
+          img={f.img} />
+          
       ))}
     </div>
   );

@@ -8,7 +8,6 @@ import FooterSection from "../FooterSection/FooterSection";
 import EmailBar from "../../components/EmailBar/EmailBar";
 import TrendingSection from "../TrendingSection/TrendingSection";
 
-
 function NetflixPage() {
   return (
     <div className="netflix-page">
